@@ -1,0 +1,53 @@
+
+body{
+  background-color: #f8fafc;
+}
+
+
+.header{
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.colorInput{
+  background-color: white;
+  border: none;
+
+}
+
+.input{
+  height: 30px;
+  border: none;
+  outline: none;
+}
+
+.errorclass{
+  height: 30px;
+  border: 2px solid red;
+  outline: none;
+}
+
+.btnSubmit{
+  padding: 10px 20px;
+  border: none;
+  background-color:#645cff;
+  border-radius: 0px 7px 7px 0px;
+  color: white;
+}
+
+
+.footer{
+  display: grid;
+  min-height: calc(100vh - 160px);
+  grid-template-columns: repeat(auto-fit,minmax(223.33px,1fr));
+  grid-template-rows: repeat(auto-fit,minmax(96px,1fr));
+}
+
+.alert {
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+}
